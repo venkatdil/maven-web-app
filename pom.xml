@@ -19,6 +19,18 @@
       <version>3.8.1</version>
     </dependency>
   </dependencies>
+    <distributionManagement>
+<repository>
+<id>nexus</id>
+<name>Venkatareddy Releases Nexus Repository</name>
+<url>http://44.208.166.30:8081/repository/maven-releases/</url>
+</repository>
+<snapshotRepository>
+<id>nexus</id>
+<name>Venkatareddy Snapshot Nexus Repository </name>
+<url>http://44.208.166.30:8081/repository/maven-snapshots/</url>
+</snapshotRepository>
+</distributionManagement>
   <build>
     <finalName>01-maven-web-app</finalName>
     <plugins>
