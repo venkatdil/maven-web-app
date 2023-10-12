@@ -22,12 +22,12 @@
     <distributionManagement>
 <repository>
 <id>nexus</id>
-<name>Venkatareddy Releases Nexus Repository</name>
+<name>Venkatareddy</name>
 <url>http://3.108.218.251:8081/repository/dil-r/</url>
 </repository>
 <snapshotRepository>
 <id>nexus</id>
-<name>Venkatareddy Snapshot Nexus Repository </name>
+<name>Venkatareddy</name>
 <url>http://3.108.218.251:8081/repository/dil-s/</url>
 </snapshotRepository>
 </distributionManagement>
