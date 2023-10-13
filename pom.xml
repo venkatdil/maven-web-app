@@ -20,15 +20,15 @@
     </dependency>
   </dependencies>
     <distributionManagement>
-<repository>
+	<repository>
 <id>nexus</id>
-<name>Venkatareddy</name>
-<url>http://3.108.218.251:8081/repository/dil-r/</url>
+<name>Venkatareddy Releases Nexus Repository</name>
+<url>http://13.232.174.92:8081/repository/dil-r/</url>
 </repository>
 <snapshotRepository>
 <id>nexus</id>
-<name>Venkatareddy</name>
-<url>http://3.108.218.251:8081/repository/dil-s/</url>
+<name>Venkatareddy Snapshot Nexus Repository </name>
+<url>http://13.232.174.92:8081/repository/dil-s/</url>
 </snapshotRepository>
 </distributionManagement>
   <build>
