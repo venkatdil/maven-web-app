@@ -19,16 +19,18 @@
       <version>3.8.1</version>
     </dependency>
   </dependencies>
-    <repository>
+    <distributionManagement>
+<repository>
  <id>nexus</id>
  <name>Mithun Technologies Releases Nexus Repository</name>
- <url>http://65.1.86.57:8081/repository/dil-r/</url>
+ <url>http://18.233.9.123:8081/repository/maven-releases/</url>
  </repository>
  <snapshotRepository>
  <id>nexus</id>
  <name>Mithun Technologies Snapshot Nexus Repository </name>
- <url>http://65.1.86.57:8081/repository/dil-s/</url>
+ <url>http://18.233.9.123:8081/repository/maven-snapshots/</url>
  </snapshotRepository>
+</distributionManagement>
   <build>
     <finalName>01-maven-web-app</finalName>
     <plugins>
