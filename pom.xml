@@ -8,9 +8,9 @@
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url>
  <properties>
-    <sonar.host.url>http://15.207.222.205:9000/</sonar.host.url>
+    <sonar.host.url>http://35.154.241.11:9000/</sonar.host.url>
     <sonar.login>admin</sonar.login>
-    <sonar.password>admin</sonar.password>
+    <sonar.password>venkat</sonar.password>
  </properties>
    <dependencies>
     <dependency>
