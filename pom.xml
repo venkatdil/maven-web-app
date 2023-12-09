@@ -23,12 +23,12 @@
 <repository>
  <id>nexus</id>
  <name>Mithun Technologies Releases Nexus Repository</name>
- <url>http://65.1.86.57:8081/repository/dil-r/</url>
+ <url>http://54.174.249.88:8081/repository/maven-releases/</url>
  </repository>
  <snapshotRepository>
  <id>nexus</id>
  <name>Mithun Technologies Snapshot Nexus Repository </name>
- <url>http://65.1.86.57:8081/repository/dil-s/</url>
+ <url>http://54.174.249.88:8081/repository/maven-snapshots/</url>
  </snapshotRepository>
 </distributionManagement>
   <build>
